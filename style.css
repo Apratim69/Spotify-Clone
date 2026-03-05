@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  height: 65px;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.homebutton {
+  margin-left: 10px;
+}
+.home-btn {
+  height: 48px;
+  width: 48px;
+  border: 0;
+  border-radius: 50px;
+  background-color: rgb(31, 31, 31);
+  cursor: pointer;
+}
+.home-btn:hover {
+  height: 50px;
+  width: 50px;
+}
+.searchbox {
+  padding-left: 10px;
+  margin-right: 300px;
+}
+.search {
+  width: 475px;
+  height: 50px;
+  border: 0;
+  background-color: rgb(31, 31, 31);
+  border-radius: 100px;
+  padding-left: 10px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: medium;
+}
+.premium{
+    margin-top: 10px;
+}
+.premium-btn{
+    background-color: rgb(255,255,255);
+    border: 0;
+    height: 34px;
+    width: 145px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-family: "DM Sans";
+    cursor: pointer;
+}
+.install{
+  margin-left: 10px;
+}
+.install-btn{
+background-color: black;
+  border: 0;
+  width: 110px;
+  height: 50px;
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-weight: bold;
+  color: rgb(150,150,150);
+  font-size: 13px;
+}
+.install-btn:hover{
+  background-color: black;
+  border: 0;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-weight: bold;
+  color:white ;
+  font-size: 14tpx;
+}

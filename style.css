@@ -1,11 +1,11 @@
 .header {
   display: flex;
   height: 65px;
+  align-items: center;
 }
 
 .logo {
   margin-left: 20px;
-  margin-top: 10px;
   margin-right: 20px;
   cursor: pointer;
 }
@@ -21,8 +21,7 @@
   cursor: pointer;
 }
 .home-btn:hover {
-  height: 50px;
-  width: 50px;
+  transform: scale(1.05);
 }
 .searchbox {
   padding-left: 10px;
@@ -38,35 +37,25 @@
   font-family: "DM Sans";
   font-weight: 500;
   font-size: medium;
+  color: white;
 }
-.premium{
-    margin-top: 10px;
+.premium-btn {
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  height: 34px;
+  width: 145px;
+  border-radius: 100px;
+  font-weight: bold;
+  font-family: "DM Sans";
+  cursor: pointer;
 }
-.premium-btn{
-    background-color: rgb(255,255,255);
-    border: 0;
-    height: 34px;
-    width: 145px;
-    border-radius: 100px;
-    font-weight: bold;
-    font-family: "DM Sans";
-    cursor: pointer;
+.premium-btn:hover {
+  transform: scale(1.03);
 }
-.install{
+.install {
   margin-left: 10px;
 }
-.install-btn{
-background-color: black;
-  border: 0;
-  width: 110px;
-  height: 50px;
-  cursor: pointer;
-  font-family: "DM Sans";
-  font-weight: bold;
-  color: rgb(150,150,150);
-  font-size: 13px;
-}
-.install-btn:hover{
+.install-btn {
   background-color: black;
   border: 0;
   width: 120px;
@@ -74,6 +63,83 @@ background-color: black;
   cursor: pointer;
   font-family: "DM Sans";
   font-weight: bold;
-  color:white ;
-  font-size: 14tpx;
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 10px;
+}
+.install-btn:hover {
+  color: white;
+  transform: scale(1.03);
+}
+.bellicon-btn {
+  background-color: black;
+  color: rgb(150, 150, 150);
+  border: 0;
+  margin: 5px;
+  cursor: pointer;
+}
+.bellicon-btn:hover {
+  color: white;
+  transform: scale(1.03);
+}
+.friend-btn {
+  background-color: black;
+  color: rgb(150, 150, 150);
+  border: 0;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.friend-btn:hover {
+  color: white;
+  transform: scale(1.03);
+}
+.profile-btn {
+  border: 0;
+  background-color: black;
+  color: rgb(150, 150, 150);
+  cursor: pointer;
+}
+.Your-Library {
+  width: 420px;
+  height: 485px;
+  background-color: rgb(18, 18, 18);
+  border-radius: 8px;
+}
+.YL-header {
+  font-family: "DM Sans";
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.p1 {
+   margin-left: 20px;
+   padding-top: 10px;
+   font-weight: bold;
+   margin-right: 150px;
+}
+.add-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(31, 31, 31);
+  border: 0;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 36px;
+  border-radius:36px;
+  gap: 6px;
+}
+.add-btn:hover{
+  background-color: rgb(31, 31, 31);
+}
+.zoom-btn{
+  border: 0;
+  background-color: rgb(18, 18, 18);
+  color: rgb(150, 150, 150);
+}
+.zoom-btn:hover{
 }

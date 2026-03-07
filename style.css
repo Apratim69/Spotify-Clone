@@ -115,12 +115,12 @@
   align-items: center;
 }
 .p1 {
-   margin-left: 20px;
-   padding-top: 10px;
-   font-weight: bold;
-   margin-right: 150px;
+  margin-left: 20px;
+  padding-top: 10px;
+  font-weight: bold;
+  margin-right: 150px;
 }
-.add-btn{
+.add-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,16 +130,122 @@
   font-weight: bold;
   width: 100px;
   height: 36px;
-  border-radius:36px;
+  border-radius: 36px;
   gap: 6px;
+  margin-right: 10px;
 }
-.add-btn:hover{
-  background-color: rgb(31, 31, 31);
+.add-btn:hover {
+  background-color: rgb(40, 40, 40);
+  transition: background-color 0.5s;
 }
-.zoom-btn{
+.zoom-btn {
   border: 0;
   background-color: rgb(18, 18, 18);
   color: rgb(150, 150, 150);
 }
-.zoom-btn:hover{
+.zoom-btn:hover {
+  color: white;
+  transform: color 0.2s;
+}
+.playlists-btn {
+  border: 0;
+  font-family: "DM Sans";
+  background-color: rgb(42, 42, 42);
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 100px;
+  font-weight: bold;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.artists-btn {
+  border: 0;
+  background-color: rgb(42, 42, 42);
+  color: white;
+  padding: 8px;
+  border: 0;
+  font-family: "DM Sans";
+  background-color: rgb(42, 42, 42);
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.h2 {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.h3 {
+  margin-top: 15px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.search2 {
+  background-color: rgb(18, 18, 18);
+  border: 0;
+  color: rgb(150, 150, 150);
+  padding-left: 12px;
+  margin-right: 270px;
+  cursor: pointer;
+}
+.right-h3 {
+  margin-right: 5px;
+  color: rgb(150, 150, 150);
+  font-family: "DM Sans";
+  font-size: small;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.right-h3:hover {
+  color: white;
+  transition: color 0.2s;
+}
+.tab-img {
+  border-radius: 30px;
+}
+.tab {
+  display: flex;
+  height: 50px;
+  width: 400px;
+  margin-top: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background-color: rgb(31, 31, 31);
+  border-radius: 5px;
+}
+.content {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.tab-r {
+  margin-left: 15px;
+  font-family: "DM Sans";
+  font-weight: 550;
+}
+.tab-name {
+  margin: 2px;
+  color: white;
+}
+.tab-type {
+  font-size: small;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 5px;
+  color: rgb(176, 176, 176);
+  font-size: 15px;
 }

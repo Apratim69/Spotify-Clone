@@ -254,10 +254,11 @@
   gap: 8px;
 }
 .right-tab{
-  width: 970px;
+  width: 915px;
   height: 485px;
-  background-color:rgb(85, 85, 85);
+  background-color:rgb(33, 33, 33);
   display: flex;
+  flex-direction: column;
   border-radius: 8px;
 }
 .r-head{
@@ -265,6 +266,7 @@
   width: fit-content;
   margin-top:15px ;
   margin-left: 40px;
+  display: flex;
 }
 .all-btn{
   background-color: rgb(255, 255, 255);
@@ -299,4 +301,44 @@
   font-family: "DM Sans";
   cursor: pointer;
   font-weight: bold;
+}
+
+.r-musictab{
+  width: 915px;
+  height: 105px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:32px;
+  margin-top: 20px;
+  }
+.musictab{
+  width: 195px;
+  height: 48px;
+  background-color: rgb(51, 51, 51);
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 8px ;
+  margin-bottom: 8px ;
+}
+.musictab-cover{
+  height: 48px;
+  width: 48px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.music-p{
+  font-family: "DM Sans";
+  font-weight: bolder;
+  color: white;
+  font-size: 13px;
+  margin-left: 8px;
+}
+.podcast-p{
+  color: white;
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-size:25px;
+  margin-left: 40px;
 }

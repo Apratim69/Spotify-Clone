@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  padding-bottom: 90px;
 }
 
 .header {
@@ -386,4 +387,10 @@ body {
   border-radius: 6px;
   transition: 0.2s;
   transition: ease-in-out 0.5s;
+}
+.bottomtab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }

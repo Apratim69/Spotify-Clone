@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: flex;
   height: 65px;
@@ -25,7 +30,7 @@
 }
 .searchbox {
   padding-left: 10px;
-  margin-right: 300px;
+  margin: 0 auto;
 }
 .search {
   width: 475px;
@@ -118,7 +123,7 @@
   margin-left: 20px;
   padding-top: 10px;
   font-weight: bold;
-  margin-right: 150px;
+  margin-right: auto;
 }
 .add-btn {
   display: flex;
@@ -193,7 +198,7 @@
   border: 0;
   color: rgb(150, 150, 150);
   padding-left: 12px;
-  margin-right: 270px;
+  margin-right: auto;
   cursor: pointer;
 }
 .right-h3 {
@@ -254,12 +259,13 @@
   gap: 8px;
 }
 .right-tab {
-  width: 915px;
+  flex: 1;
   height: 485px;
   background-color: rgb(33, 33, 33);
   display: flex;
   flex-direction: column;
   border-radius: 8px;
+  overflow: hidden;
 }
 .r-head {
   height: fit-content;
@@ -304,8 +310,8 @@
 }
 
 .r-musictab {
-  width: 915px;
-  height: 105px;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   margin-left: 32px;
@@ -353,8 +359,8 @@
   font-size: 25px;
   margin-top: 2px;
 }
-.recentplayed{
-  display:flex;
+.recentplayed {
+  display: flex;
 }
 .recent {
   margin-top: 15px;
@@ -379,5 +385,5 @@
   background-color: rgb(51, 51, 51);
   border-radius: 6px;
   transition: 0.2s;
-  transition:ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }

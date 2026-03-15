@@ -29,17 +29,13 @@ body {
 .home-btn:hover {
   transform: scale(1.05);
 }
-.searchbox {
-  padding-left: 10px;
-  margin: 0 auto;
-}
+
 .search {
   width: 475px;
   height: 50px;
   border: 0;
   background-color: rgb(31, 31, 31);
   border-radius: 100px;
-  padding-left: 10px;
   font-family: "DM Sans";
   font-weight: 500;
   font-size: medium;
@@ -54,6 +50,7 @@ body {
   font-weight: bold;
   font-family: "DM Sans";
   cursor: pointer;
+  margin-left: 320px;
 }
 .premium-btn:hover {
   transform: scale(1.03);
